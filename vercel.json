@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "optimize-image.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "optimize-image",
+        "dest": "optimize-image.js"
+      }
+    ]
+  }
